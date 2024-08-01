@@ -14,7 +14,7 @@ const Skills = () => {
       </div>
       <div className="row mt-8 ">
         <div
-          className="flex flex-wrap justify-center gap-6 md:gap-44"
+          className="flex flex-wrap justify-center  md:gap-44 lg:gap-2"
           data-aos="zoom-in-right"
         >
           <div
@@ -96,7 +96,7 @@ const Skills = () => {
       </div>
       <div className="row mt-8 ">
         <div
-          className="flex flex-wrap justify-center gap-6 md:gap-44 md:mt-20 "
+          className="flex flex-wrap justify-center  md:gap-44 md:mt-20 lg:gap-2 "
           data-aos="zoom-in-left"
         >
           <div
