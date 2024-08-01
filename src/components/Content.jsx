@@ -18,7 +18,7 @@ const Content = () => {
           backSpeed={20}
         />
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-4 mt-8">
+      <div className="flex flex-wrap justify-center items-center gap-4 mt-16">
         {/* Uncomment these if needed */}
         {/* <button className="hover:opacity-100 bg-opacity-90 duration-300">
           <img

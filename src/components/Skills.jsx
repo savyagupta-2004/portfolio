@@ -8,13 +8,13 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="py-36 px-4 md:px-8">
+    <div className="py-32 px-4 ">
       <div data-aos="flip-up">
         <h1 className="text-center font-bold text-4xl text-black">My Skills</h1>
       </div>
-      <div className="row mt-8">
+      <div className="row mt-8 ">
         <div
-          className="flex flex-wrap justify-center gap-6 "
+          className="flex flex-wrap justify-center gap-6 md:gap-44"
           data-aos="zoom-in-right"
         >
           <div
@@ -94,9 +94,9 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="row mt-8">
+      <div className="row mt-8 ">
         <div
-          className="flex flex-wrap justify-center gap-6 "
+          className="flex flex-wrap justify-center gap-6 md:gap-44 md:mt-20 "
           data-aos="zoom-in-left"
         >
           <div
