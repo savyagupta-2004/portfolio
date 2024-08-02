@@ -8,17 +8,19 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="py-32 px-4 ">
+    <div className="py-32 px-4  md:mx-20 ">
       <div data-aos="flip-up">
-        <h1 className="text-center font-bold text-4xl text-black">My Skills</h1>
+        <h1 className="text-center font-bold text-4xl text-black ">
+          My Skills
+        </h1>
       </div>
-      <div className="row mt-8 ">
+      <div className="row mt-8 lg:mx-32">
         <div
-          className="flex flex-wrap justify-center  md:gap-44 lg:gap-2"
+          className="flex flex-wrap justify-center lg:gap-2"
           data-aos="zoom-in-right"
         >
           <div
-            className="card w-full sm:w-80 md:w-72 bg-white shadow-lg rounded-lg overflow-hidden mb-11"
+            className="card w-full sm:w-80  bg-white shadow-lg rounded-lg overflow-hidden mb-11 "
             data-aos="flip-left"
           >
             <img
@@ -35,7 +37,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="card w-full sm:w-80 md:w-72 bg-white shadow-lg rounded-lg overflow-hidden"
+            className="card w-full sm:w-80  bg-white shadow-lg rounded-lg overflow-hidden"
             data-aos="flip-right"
           >
             <img
@@ -55,7 +57,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="card w-full sm:w-80 md:w-72 bg-white shadow-lg rounded-lg overflow-hidden"
+            className="card w-full sm:w-80 md:mt-20 bg-white shadow-lg rounded-lg overflow-hidden"
             data-aos="flip-left"
           >
             <img
@@ -74,7 +76,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="card w-full sm:w-80 md:w-72 bg-white shadow-lg rounded-lg overflow-hidden "
+            className="card w-full sm:w-80 md:mt-20 bg-white shadow-lg rounded-lg overflow-hidden "
             data-aos="flip-right"
           >
             <img
@@ -94,13 +96,13 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="row mt-8 ">
+      <div className="row mt-8 lg:mx-32 ">
         <div
-          className="flex flex-wrap justify-center  md:gap-44 md:mt-20 lg:gap-2 "
+          className="flex flex-wrap justify-center   md:mt-20 lg:gap-2  "
           data-aos="zoom-in-left"
         >
           <div
-            className="card w-full sm:w-80 md:w-72 bg-white shadow-lg rounded-lg overflow-hidden"
+            className="card w-full sm:w-80  bg-white shadow-lg rounded-lg overflow-hidden"
             data-aos="flip-left"
           >
             <img
@@ -119,7 +121,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="card w-full sm:w-80 md:w-72 bg-white shadow-lg rounded-lg overflow-hidden "
+            className="card w-full sm:w-80  bg-white shadow-lg rounded-lg overflow-hidden "
             data-aos="flip-left"
           >
             <img
@@ -139,7 +141,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="card w-full sm:w-80 md:w-72 bg-white shadow-lg rounded-lg overflow-hidden"
+            className="card w-full sm:w-80 md:mt-20 bg-white shadow-lg rounded-lg overflow-hidden"
             data-aos="flip-left"
           >
             <img
@@ -158,7 +160,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="card w-full sm:w-80 md:w-72 bg-white shadow-lg rounded-lg overflow-hidden "
+            className="card w-full sm:w-80  md:mt-20  bg-white shadow-lg rounded-lg overflow-hidden "
             data-aos="flip-left"
           >
             <img
