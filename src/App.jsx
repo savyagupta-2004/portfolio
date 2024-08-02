@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import { OrbitSpace } from "orbit-space";
+import Starfield from "react-starfield";
 import "./App.css";
 
 import Content from "./components/Content";
@@ -14,9 +15,12 @@ function App() {
   return (
     <>
       {/* <Navbar /> */}
-      <div className=" absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
+      <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 mt-16">
         <Content />
-        <Skills />
+        <OrbitSpace speed={20000} density={200} brightness={1.5}>
+          {/* Adjust properties like speed, density, and brightness as needed */}
+          <Skills />
+        </OrbitSpace>
 
         <Projects />
         <Contact />

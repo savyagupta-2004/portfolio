@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <>
       <div className="wow py-10">
-        <h1 className="font-bold text-5xl flex justify-center items-center">
+        <h1 className="font-bold text-5xl flex justify-center items-center text-white">
           Let's Chat
         </h1>
         <div className="flex justify-center items-center gap-3">

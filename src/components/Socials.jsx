@@ -1,25 +1,26 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faGoogle,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Container } from "react-bootstrap";
 
 const Socials = () => {
   return (
     <>
-      <div className="flex justify-center items-center font-bold text-4xl">
-        <h1> Drop Your Valuable Feedback</h1>
+      <div className="flex justify-center items-center font-bold text-4xl text-center text-white mt-4">
+        <h1>Drop Your Valuable Feedback</h1>
       </div>
-      <div className="flex justify-center items-center gap-3">
+      <div className="flex justify-center items-center gap-3 mt-4">
         <div className="flex justify-center items-center my-3">
           <a
             href="https://www.linkedin.com/in/-savyagupta"
             target="_blank"
             rel="noopener noreferrer"
             title="Linkedin"
+            className="text-3xl bg-white p-2 rounded-md"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
@@ -30,6 +31,7 @@ const Socials = () => {
             target="_blank"
             rel="noopener noreferrer"
             title="Github"
+            className="text-3xl bg-white p-2 rounded-md"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
@@ -40,6 +42,7 @@ const Socials = () => {
             target="_blank"
             rel="noopener noreferrer"
             title="Email"
+            className="text-3xl bg-white p-2 rounded-md"
           >
             <FontAwesomeIcon icon={faGoogle} />
           </a>

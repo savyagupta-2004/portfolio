@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Content = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen px-4 md:px-4 overflow-hidden">
+    <div className="flex flex-col justify-center items-center min-h-screen px-4 md:px-4 md:overflow-x-hidden sm:overflow-y-hidden overflow-x-hidden ">
       <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-left gap-6 md:gap-12">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white">
           Hi! I'm Savya Gupta
