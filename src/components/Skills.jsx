@@ -9,7 +9,7 @@ const Skills = () => {
 
   return (
     <>
-      <div className="relative md:mx-20 md:gap-2">
+      <div className="relative md:mx-20 md:gap-2 mt-10">
         <div data-aos="flip-up">
           <h1 className="text-center font-bold text-4xl text-white">
             My Skills

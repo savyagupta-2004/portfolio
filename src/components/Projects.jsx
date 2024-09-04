@@ -30,10 +30,10 @@ const Projects = () => {
               <div className="flex flex-wrap justify-start items-center gap-2 my-2">
                 <h2>FlexHub</h2>
 
-                <div className="rounded-3xl border border-red-900 bg-slate-500 w-24 text-center font-bold text-white text-sm md:text-xl">
+                <div className="rounded-3xl border border-red-900 bg-slate-500 md:w-24 lg:w-24 sm:w-24 w-fit px-2 text-center font-bold text-white text-sm md:text-xl ">
                   React.js
                 </div>
-                <div className="rounded-xl border border-red-900 bg-slate-500 w-36 text-center font-bold text-white text-sm md:text-xl">
+                <div className="rounded-xl border border-red-900 bg-slate-500 md:w-36 sm:w-36 lg:w-36 w-fit px-2 text-center font-bold text-white text-sm md:text-xl">
                   Tailwind CSS
                 </div>
                 <div className="rounded-3xl border border-red-900 bg-slate-500 w-28 text-center font-bold text-white text-sm md:text-xl">
@@ -51,7 +51,7 @@ const Projects = () => {
               </div>
             </h2>
 
-            <p className="text-base md:text-lg">
+            <p className="font-bold md:text-lg sm:text-xs text-wrap text-[10px]">
               I developed a comprehensive cricket web application using React,
               featuring a range of functionalities for an engaging user
               experience. Users can select the type of match, such as 2-over or
@@ -100,7 +100,7 @@ const Projects = () => {
                 </a>
               </div>
             </h2>
-            <p className="text-base md:text-lg">
+            <p className="font-bold md:text-lg sm:text-xs text-wrap text-[10px]">
               I developed a versatile text manipulation application using React,
               featuring a range of functionalities to enhance user experience.
               Core features include converting text to uppercase and lowercase,
@@ -144,7 +144,7 @@ const Projects = () => {
                 </a>
               </div>
             </h2>
-            <p className="text-base md:text-lg">
+            <p className="font-bold md:text-lg sm:text-xs text-wrap text-[10px]">
               I have designed and implemented a sophisticated password manager
               application using Vite and React, enhanced with Tailwind CSS for
               styling. This application provides users with a secure and
@@ -168,8 +168,8 @@ const Projects = () => {
           </div>
           <div className="md:w-1/2 p-4 md:pl-8">
             <h2 className="font-bold text-3xl mb-4">
-              <div className="flex flex-wrap justify-start items-center gap-2 my-2">
-                <h2>Dear Diary</h2>
+              <div className="flex flex-wrap justify-start items-center sm:gap-2 sm:my-2 md:gap-2 md:my-2 lg:gap-2 lg:my-2 gap-[2px] text-xl my-1 sm:text-2xl md:text-2xl lg:text-2xl">
+                <h2 className="my-1">Dear Diary</h2>
 
                 <div className="rounded-3xl border border-red-900 bg-slate-500 w-20 text-center font-bold text-white text-sm md:text-xl">
                   React
@@ -194,14 +194,12 @@ const Projects = () => {
                 </a>
               </div>
             </h2>
-            <p className="text-base md:text-lg">
-              I have designed and implemented a sophisticated password manager
-              application using Vite and React, enhanced with Tailwind CSS for
-              styling. This application provides users with a secure and
-              efficient way to manage their passwords locally. Key features
-              include the ability to save new passwords, edit existing ones, and
-              delete passwords as needed, all within a user-friendly interface
-              that ensures data privacy and ease of use.
+            <p className="font-bold md:text-lg sm:text-xs text-wrap text-[10px]">
+              I have implemented an diary on the cloud application where the
+              user can login/signup and put up their daily experiences on the
+              cloud.They can access their diaries from anywhere in the world and
+              from any device. it also allows the user to add and delete an
+              diary.
             </p>
           </div>
         </div>
@@ -248,7 +246,7 @@ const Projects = () => {
                 </a> */}
               </div>
             </h2>
-            <p className="text-base md:text-lg">
+            <p className="font-bold md:text-lg sm:text-xs text-wrap text-[10px]">
               I'am developing a Next.js application named Chai Point, designed
               for users to explore projects from their favorite creators and for
               creators to receive funding through Razorpay integrations. The
@@ -296,7 +294,7 @@ const Projects = () => {
                 </a> */}
               </div>
             </h2>
-            <p className="text-base md:text-lg">
+            <p className="font-bold md:text-lg sm:text-xs text-wrap text-[10px]">
               I have developed a food delivery application named Snack Snap
               using Next.js. This app enables users to browse and order food
               items seamlessly. It incorporates modern web technologies to
