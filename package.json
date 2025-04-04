@@ -10,21 +10,32 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@material-tailwind/react": "^2.1.9",
+    "@mui/icons-material": "^6.4.4",
+    "@mui/material": "^6.4.4",
+    "@mui/styled-engine-sc": "^6.4.3",
+    "@react-three/drei": "^9.121.5",
+    "@react-three/fiber": "^8.17.14",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
+    "framer-motion": "^12.4.3",
     "orbit-space": "^1.1.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
     "react-parallax": "^3.5.1",
     "react-starfield": "^1.0.3",
+    "react-three-fiber": "^6.0.13",
     "react-toastify": "^10.0.5",
-    "react-typed": "^2.0.12"
+    "react-typed": "^2.0.12",
+    "styled-components": "^6.1.15",
+    "three": "^0.173.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

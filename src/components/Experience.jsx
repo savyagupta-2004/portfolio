@@ -124,7 +124,7 @@ const Experience = () => {
               </h2>
               <p className="text-gray-600 mb-4">Hazaribagh, Jharkhand</p>
               <p className="text-indigo-600 font-medium mb-6">
-                Senior Developer (June 2024 - Present)
+                Senior Developer (June 2024 - Dec 2024)
               </p>
 
               {/* Action Button */}
@@ -160,6 +160,78 @@ const Experience = () => {
                   <span className="text-gray-700">
                     Managed the entire software development lifecycle, from
                     planning and design to deployment and maintenance.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Decorative Elements (Optional) */}
+        <div className="absolute top-0 left-0 w-32 h-32 bg-pink-300 rounded-full opacity-50 blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-48 h-48 bg-yellow-300 rounded-full opacity-50 blur-3xl"></div>
+      </section>
+      <section className="relative w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 py-16 overflow-hidden">
+        <div className="container mx-auto px-6 lg:px-16">
+          {/* Experience Card */}
+          <div
+            className="flex flex-col md:flex-row items-center bg-white bg-opacity-90 p-8 rounded-3xl shadow-2xl transition-transform transform hover:scale-105"
+            data-aos="fade-up"
+          >
+            {/* Company Logo */}
+            <div className="md:w-1/2 rounded-lg overflow-hidden">
+              <img
+                className="rounded-lg w-full transform transition duration-500 hover:scale-110"
+                src="Icons/skilledity.png"
+                alt="Skilledity"
+              />
+            </div>
+
+            {/* Experience Details */}
+            <div className="md:w-1/2 md:pl-12">
+              <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                Skilledity Solution Private Limited
+              </h2>
+              <p className="text-gray-600 mb-4">Bangalore, Karnataka</p>
+              <p className="text-indigo-600 font-medium mb-6">
+                Senior Developer (Feb 2025 - May 2025)
+              </p>
+
+              {/* Action Button */}
+              <a
+                href="https://skilledity.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mb-6"
+              >
+                <button className="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-full shadow-md hover:bg-indigo-700 transition-colors">
+                  Visit Project
+                </button>
+              </a>
+
+              {/* Experience Points */}
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-3 text-xl">→</span>
+                  <span className="text-gray-700">
+                    Designed and developed a full-stack website, integrating
+                    frontend and backend components for a seamless user
+                    experience.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-3 text-xl">→</span>
+                  <span className="text-gray-700">
+                    Optimized performance and scalability, implementing best
+                    coding practices to ensure a robust and efficient system.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-3 text-xl">→</span>
+                  <span className="text-gray-700">
+                    Collaborated with cross-functional teams, gathering
+                    requirements, troubleshooting issues, and delivering a
+                    high-quality product within deadlines.
                   </span>
                 </li>
               </ul>
