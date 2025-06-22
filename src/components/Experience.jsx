@@ -59,13 +59,13 @@ const Experience = () => {
 
               {/* Action Button */}
               <a
-                href="https://keyncoders.in"
+                href="https://drive.google.com/drive/folders/1IxPB_wM7dN1SBEFuNniBfwhNIRxBmT3v?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mb-6"
               >
                 <button className="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-full shadow-md hover:bg-indigo-700 transition-colors">
-                  Visit Project
+                  View Certificate
                 </button>
               </a>
 
@@ -129,13 +129,13 @@ const Experience = () => {
 
               {/* Action Button */}
               <a
-                href="https://keyncoders.in"
+                href="https://drive.google.com/drive/folders/1IxPB_wM7dN1SBEFuNniBfwhNIRxBmT3v?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mb-6"
               >
                 <button className="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-full shadow-md hover:bg-indigo-700 transition-colors">
-                  Visit Project
+                  View Certificate
                 </button>
               </a>
 
@@ -199,13 +199,13 @@ const Experience = () => {
 
               {/* Action Button */}
               <a
-                href="https://skilledity.in"
+                href="https://drive.google.com/drive/folders/1IxPB_wM7dN1SBEFuNniBfwhNIRxBmT3v?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mb-6"
               >
                 <button className="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-full shadow-md hover:bg-indigo-700 transition-colors">
-                  Visit Project
+                  View Certificate
                 </button>
               </a>
 
@@ -232,6 +232,71 @@ const Experience = () => {
                     Collaborated with cross-functional teams, gathering
                     requirements, troubleshooting issues, and delivering a
                     high-quality product within deadlines.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Decorative Elements (Optional) */}
+        <div className="absolute top-0 left-0 w-32 h-32 bg-pink-300 rounded-full opacity-50 blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-48 h-48 bg-yellow-300 rounded-full opacity-50 blur-3xl"></div>
+      </section>
+      <section className="relative w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 py-16 overflow-hidden">
+        <div className="container mx-auto px-6 lg:px-16">
+          {/* Experience Card */}
+          <div
+            className="flex flex-col md:flex-row items-center bg-white bg-opacity-90 p-8 rounded-3xl shadow-2xl transition-transform transform hover:scale-105"
+            data-aos="fade-up"
+          >
+            {/* Company Logo */}
+            <div className="md:w-1/2 rounded-lg overflow-hidden">
+              <img
+                className="rounded-lg w-full transform transition duration-500 hover:scale-110"
+                src="Icons/fixmybug.png"
+                alt="Skilledity"
+              />
+            </div>
+
+            {/* Experience Details */}
+            <div className="md:w-1/2 md:pl-12">
+              <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                Building FixmyBug
+              </h2>
+              <p className="text-gray-600 mb-4">Hyderabad, Telengana</p>
+              <a
+                href="https://fixmybug.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mb-6"
+              >
+                <button className="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-full shadow-md hover:bg-indigo-700 transition-colors">
+                  Visit Website
+                </button>
+              </a>
+
+              {/* Experience Points */}
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-3 text-xl">→</span>
+                  <span className="text-gray-700">
+                    Provided bug-fixing services under the brand "FixmyBug",
+                    successfully solving 150+ issues for various clients.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-3 text-xl">→</span>
+                  <span className="text-gray-700">
+                    Hired and managed a team of 5 skilled bug fixers to scale
+                    operations and ensure timely delivery of solutions.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-3 text-xl">→</span>
+                  <span className="text-gray-700">
+                    Made use various react technologies inorder to ensure seo
+                    optimization, and smooth page rendering.
                   </span>
                 </li>
               </ul>

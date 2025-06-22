@@ -1,205 +1,152 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+import { motion } from "framer-motion";
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiPython,
+  DiGit,
+  DiJava,
+  DiHtml5,
+  DiCss3,
+} from "react-icons/di";
+import {
+  SiC,
+  SiCplusplus,
+  SiRedux,
+  SiTailwindcss,
+  SiExpress,
+  SiNextdotjs,
+  SiVite,
+  SiAxios,
+  SiSocketdotio,
+  SiMongoose,
+  SiFirebase,
+  SiPostgresql,
+  SiPrisma,
+  SiDocker,
+  SiVercel,
+  SiNetlify,
+  SiGithub,
+  SiGitlab,
+  SiPostman,
+  SiFigma,
+} from "react-icons/si";
+import { FaAws, FaCode } from "react-icons/fa";
 
-const Skills = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
+function AboutMe() {
   return (
-    <>
-      <div className="relative md:mx-20 md:gap-2 mt-10">
-        <div data-aos="flip-up">
-          <h1 className="text-center font-bold text-4xl text-white">
-            My Skills
+    <div className="w-full  text-white py-16 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center space-y-3 mb-14">
+          <h1 className="text-4xl font-extrabold tracking-wide">
+            My <span className="text-purple-500">Skills & Tools</span>
           </h1>
+          <p className="text-lg text-gray-400">
+            A curated set of technologies I’ve worked with across frontend,
+            backend, DevOps, and tools.
+          </p>
         </div>
-        <div className="flex flex-wrap justify-center mt-8 lg:mx-32">
-          <div
-            className="flex flex-wrap justify-center gap-4 lg:gap-2"
-            data-aos="zoom-in-right"
-          >
-            <div
-              className="card w-full sm:w-80 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 shadow-2xl rounded-lg overflow-hidden mb-11"
-              data-aos="flip-left"
-            >
-              <img
-                src="Icons/javareal.jpeg"
-                className="card-img-top w-full h-48 object-cover"
-                alt="Java"
-              />
-              <div className="card-body p-4">
-                <h5 className="card-title font-bold text-xl sm:text-2xl text-white">
-                  Java
-                </h5>
-                <p className="card-text text-sm sm:text-base text-white">
-                  I have acquired foundational knowledge in Spring Boot and
-                  Java.
-                </p>
-              </div>
-            </div>
 
-            <div
-              className="card w-full sm:w-80 bg-gradient-to-r from-green-400 via-teal-400 to-blue-400 shadow-2xl rounded-lg overflow-hidden mb-11"
-              data-aos="flip-right"
-            >
-              <img
-                src="Icons/webdev.jpeg"
-                className="card-img-top w-full h-48 object-cover"
-                alt="Web Development"
-              />
-              <div className="card-body p-4">
-                <h5 className="card-title font-bold text-xl sm:text-2xl text-white">
-                  Html/CSS/JavaScript
-                </h5>
-                <p className="card-text text-sm sm:text-base text-white">
-                  Made many small-scale projects such as To-do list, Dummy data
-                  generator, OTP generator, text-utility, and many more.
-                </p>
-              </div>
-            </div>
+        <Section title="Languages & Frameworks">
+          <IconGrid
+            icons={[
+              <DiHtml5 />,
+              <DiCss3 />,
+              <DiJavascript1 />,
+              <DiReact />,
+              <SiRedux />,
+              <DiNodejs />,
+              <SiExpress />,
+              <SiNextdotjs />,
+              <DiJava />,
+              <SiC />,
+              <SiCplusplus />,
+              <DiPython />,
+            ]}
+          />
+        </Section>
 
-            <div
-              className="card w-full sm:w-80 bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 shadow-2xl rounded-lg overflow-hidden mb-11"
-              data-aos="flip-left"
-            >
-              <img
-                src="Icons/python.jpeg"
-                className="card-img-top w-full h-48 object-cover"
-                alt="Python"
-              />
-              <div className="card-body p-4">
-                <h5 className="card-title font-bold text-xl sm:text-2xl text-white">
-                  Python
-                </h5>
-                <p className="card-text text-sm sm:text-base text-white">
-                  Learned basics and fundamentals in Python, exploring various
-                  concepts and practicing through projects and exercises to
-                  solidify my understanding.
-                </p>
-              </div>
-            </div>
+        <Section title="Libraries & Databases">
+          <IconGrid
+            icons={[
+              <SiVite />,
+              <SiAxios />,
+              <SiSocketdotio />,
+              <SiTailwindcss />,
+              <DiMongodb />,
+              <SiMongoose />,
+              <SiFirebase />,
+              <SiPostgresql />,
+              <SiPrisma />,
+            ]}
+          />
+        </Section>
 
-            <div
-              className="card w-full sm:w-80 bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 shadow-2xl rounded-lg overflow-hidden mb-11"
-              data-aos="flip-right"
-            >
-              <img
-                src="Icons/dsa.png"
-                className="card-img-top w-full h-48 object-cover"
-                alt="DSA"
-              />
-              <div className="card-body p-4">
-                <h5 className="card-title font-bold text-xl sm:text-2xl text-white">
-                  DSA
-                </h5>
-                <p className="card-text text-sm sm:text-base text-white">
-                  I have acquired knowledge in Data Structures and Algorithms
-                  (DSA) and have practiced solving problems on LeetCode,
-                  tackling a variety of algorithmic challenges to enhance my
-                  problem-solving skills.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-wrap justify-center mt-8 lg:mx-32">
-          <div
-            className="flex flex-wrap justify-center gap-4 lg:gap-2"
-            data-aos="zoom-in-left"
-          >
-            <div
-              className="card w-full sm:w-80 bg-gradient-to-r from-cyan-500 via-teal-500 to-green-500 shadow-2xl rounded-lg overflow-hidden mb-11"
-              data-aos="flip-left"
-            >
-              <img
-                src="Icons/github.jpeg"
-                className="card-img-top w-full h-48 object-cover"
-                alt="Git & GitHub"
-              />
-              <div className="card-body p-4">
-                <h5 className="card-title font-bold text-xl sm:text-2xl text-white">
-                  Git & GitHub
-                </h5>
-                <p className="card-text text-sm sm:text-base text-white">
-                  I have made use of GitHub pages to host all my projects,
-                  enabling easy access and showcasing my work to potential
-                  employers and collaborators.
-                </p>
-              </div>
-            </div>
+        <Section title="Cloud & DevOps">
+          <IconGrid
+            icons={[<FaAws />, <SiDocker />, <SiVercel />, <SiNetlify />]}
+          />
+        </Section>
 
-            <div
-              className="card w-full sm:w-80 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 shadow-2xl rounded-lg overflow-hidden mb-11"
-              data-aos="flip-left"
-            >
-              <img
-                src="Icons/oopsreal.png"
-                className="card-img-top w-full h-48 object-cover"
-                alt="C/C++"
-              />
-              <div className="card-body p-4">
-                <h5 className="card-title font-bold text-xl sm:text-2xl text-white">
-                  C/C++
-                </h5>
-                <p className="card-text text-sm sm:text-base text-white">
-                  I have gained a solid understanding of object-oriented
-                  programming (OOP) principles in C/C++, applying these concepts
-                  in various projects and coding exercises to build efficient
-                  and maintainable code.
-                </p>
-              </div>
-            </div>
+        <Section title="Tools I Use">
+          <IconGrid
+            icons={[
+              <DiGit />,
+              <SiGithub />,
+              <SiGitlab />,
+              <FaCode />,
+              <SiPostman />,
+              <SiFigma />,
+            ]}
+          />
+        </Section>
 
-            <div
-              className="card w-full sm:w-80 bg-gradient-to-r from-teal-400 via-green-400 to-yellow-400 shadow-2xl rounded-lg overflow-hidden mb-11"
-              data-aos="flip-left"
-            >
-              <img
-                src="Icons/mern.jpeg"
-                className="card-img-top w-full h-48 object-cover"
-                alt="MERN"
-              />
-              <div className="card-body p-4">
-                <h5 className="card-title font-bold text-xl sm:text-2xl text-white">
-                  MERN
-                </h5>
-                <p className="card-text text-sm sm:text-base text-white">
-                  I have acquired comprehensive expertise in the MERN stack,
-                  encompassing MongoDB, Express.js, React.js, and Node.js,
-                  allowing me to build robust, full-stack web applications.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="card w-full sm:w-80 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 shadow-2xl rounded-lg overflow-hidden mb-11"
-              data-aos="flip-left"
-            >
-              <img
-                src="Icons/next.png"
-                className="card-img-top w-full h-48 object-cover"
-                alt="Next.js"
-              />
-              <div className="card-body p-4 mb-8">
-                <h5 className="card-title font-bold text-xl sm:text-2xl text-white">
-                  Next.js
-                </h5>
-                <p className="card-text text-sm sm:text-base text-white">
-                  I have learned Next.js and understood its key features, such
-                  as server-side rendering, static site generation, and dynamic
-                  routing. This knowledge allows me to build efficient and
-                  dynamic web applications, enhancing the user experience and
-                  performance.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div className="mt-20 text-center text-gray-500">
+          <h2 className="text-xl font-medium">GitHub Activity (Coming Soon)</h2>
         </div>
       </div>
-    </>
+    </div>
   );
-};
+}
 
-export default Skills;
+// Reusable section block
+function Section({ title, children }) {
+  return (
+    <div className="mb-16">
+      <h2 className="text-2xl font-semibold text-center text-purple-400 mb-8 uppercase tracking-wider">
+        {title}
+      </h2>
+      {children}
+    </div>
+  );
+}
+
+// Icon grid with animation
+// Icon grid with structured layout
+function IconGrid({ icons }) {
+  return (
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 px-4">
+      {icons.map((Icon, idx) => (
+        <motion.div
+          key={idx}
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 0.4,
+            delay: idx * 0.05,
+            type: "spring",
+            stiffness: 120,
+          }}
+          className="text-5xl text-white bg-[#181818] p-6 rounded-2xl shadow-lg hover:scale-110 hover:shadow-purple-500/40 transition-all duration-300 flex items-center justify-center"
+        >
+          {Icon}
+        </motion.div>
+      ))}
+    </div>
+  );
+}
+
+export default AboutMe;

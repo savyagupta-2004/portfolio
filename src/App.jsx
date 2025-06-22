@@ -24,11 +24,11 @@ function App() {
 
         <OrbitSpace speed={20000} density={200} brightness={1.5}>
           {/* Adjust properties like speed, density, and brightness as needed */}
-          {/* <Skills /> */}
+          <Skills />
         </OrbitSpace>
         <div className="mt-20"></div>
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
         <Profile></Profile>
         {/* <ArticlesPage></ArticlesPage> */}
         <Socials />
